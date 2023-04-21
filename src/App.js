@@ -16,7 +16,6 @@ function App() {
     obsityone: { low: "", high: "" },
     obsitytwo: { low: "", high: "" },
     obsitythree: { high: "" },
-    
   });
   const onFormSub = (w, h) => {
     let b = calBmi(w, h);
@@ -87,6 +86,7 @@ function App() {
               BmiName={BmiType}
               changeWeight={changeWeight}
             />
+            <div></div>
           </div>
           <div className="col-12 col-sm-6">
             <BmiList range={bmiRange} bmi={Bmi} />
