@@ -86,7 +86,9 @@ function App() {
               BmiName={BmiType}
               changeWeight={changeWeight}
             />
-            <div></div>
+            <div>
+              <div>hello</div>
+            </div>
           </div>
           <div className="col-12 col-sm-6">
             <BmiList range={bmiRange} bmi={Bmi} />
